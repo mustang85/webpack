@@ -1,0 +1,23 @@
+@import './colors';
+@import './vendor';
+
+body {
+  // background: $mainBGcolor;
+  background: #070000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #070000, #4c0001, #070000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4c0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#window-small {
+  background-image: url('../../../images/icon_dummy.png');
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 240px;
+}
+
+#window-big {
+  background-image: url('../../../images/bg_dummy.jpg');
+  background-repeat: no-repeat;
+  height: 1080px;
+  width: 1920px;
+}
